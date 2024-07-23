@@ -192,63 +192,6 @@ img {
     color: white;
 }
 
-
-/* I wasn't sure if I should use this in the code, this is to make the application responsive. */
-
-
-/* @media screen and (max-width: 800px) {
-  .grid_box {
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  }
-
-  .acbtn {
-    pointer-events: all;
-    display: flex;
-  }
-  .right_part {
-    position: fixed;
-    top: 0;
-    right: -200%;
-    width: 100%;
-    max-width: 60%;
-    background: var(--deepgray);
-    height: 100%;
-    z-index: 1000000;
-    align-items: start;
-    justify-content: start;
-    transition: 0.3s ease-in-out;
-    opacity: 0;
-    pointer-events: none;
-    flex-direction: column;
-  }
-  .right_part.ac {
-    right: 0;
-    opacity: 1;
-    pointer-events: all;
-  }
-  .dim.dim_act {
-    opacity: 0.8;
-    visibility: visible;
-    display: flex;
-    pointer-events: all;
-    width: 100%;
-    scale: 1;
-  }
-} */
-
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    --maincl: #191919;
-    --mainBg: #f6f6f6;
-    --visited: #83ff16;
-    --basebg: #ffffff;
-    --deepgray: #d7d7d796;
-    --dark: #353535;
-    color-scheme: light;
-  }
-} */
-
 .hide_me {
     display: none;
     pointer-events: none;
